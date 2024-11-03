@@ -1,0 +1,99 @@
+.hero {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.6 ), rgba(4, 9, 30, 0.6)),
+    url(../../assets/Img/young-courier-his-colleague-unloading-cardboard-boxes-from-delivery-van.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero .container {
+  padding-top: 15%;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+form .input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+
+.text-box {
+  color: #fff;
+
+  text-align: center;
+}
+.text-box h1 {
+  font-weight: 800;
+  font-size: var(--biggest-font);
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: var(--h3-font-size);
+}
+.content-btn{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hero-btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  border: 1.5px solid #fff;
+  font-size: var(--h3-font-size);
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  border: 1px solid #070F2B;
+  background: #1B1A55;
+  transition: 1s;
+}
+@media screen and (max-width: 900px) {
+  .hero .container {
+    padding-top: 50%;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero .container {
+    padding-top: 45%;
+      max-width: 100%;
+  }
+  
+}

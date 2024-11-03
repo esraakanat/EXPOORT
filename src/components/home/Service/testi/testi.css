@@ -1,0 +1,55 @@
+.container_testi {
+  direction: ltr;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Testimonial {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  padding: 50px 0;
+  row-gap: 30px;
+}
+
+.Testimonial .img_testi {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.Testimonial .Slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.Slide p {
+  text-align: center;
+  padding: 0 100px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+
+.Slide .guote-icon{
+    font-size: 30px;
+    color: #d01c28;
+}
+.Slide .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details .name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.details .job{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+}

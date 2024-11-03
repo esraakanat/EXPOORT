@@ -1,0 +1,71 @@
+{
+    "title": "verhuisbedrijf Groningen naar heel nederland goedkoop verhuisbedrijf",
+    "description":"Verhuisbedrijf Groningen nodig? ✓ Persoonlijke service ✓ Ervaren verhuizers ✓ In 5 minuten een prijs ✓ Korting tot  30% ✓ Student Verhuis Service Lets Move.",
+    "name": "MA.EXPRESS",
+    "home": "Thuis",
+    "service": "Dienst",
+    "ourTame": "ًWerkgelegenheid",
+    "contact": "Neem contact op",
+    "call": "Bel: +01 123455678990",
+    "emil": "E-mail: demo@gmail.com",
+    "SubmitEmail": {
+        "contact": "Contact",
+        "yourfullname": "Je volledige naam",
+        "email": "E-mail",
+        "phone": "Telefoon",
+        "message": "Bericht",
+        "submit": "Verzenden"
+    },
+    "logo": "Snelleheid, veiligheid, kwaliteit",
+    "hero": {
+        "title": "Bent u op zoek naar een verhuisbedrijf?",
+        "body": "Wij zijn een gespecialiseerd bedrijf in verhuisdiensten en pakketbezorging. We begrijpen het belang van uw bezittingen en waarderen hun persoonlijke en emotionele waarde voor u. Daarom streven we ernaar om een veilige en betrouwbare verhuisservice te bieden, zodat uw bezittingen veilig en in goede staat op hun bestemming aankomen",
+                "btn": "Onze prijzen zijn zeer concurrerend en we bieden kortingen voor vaste klanten.",
+        "btnStudent": " Discount for students   "
+
+    },
+    "Certificates": {
+        "title": "Certificaten en Aanbevelingen",
+        "titlep": "Wij zijn toegewijd om de best mogelijke snelle transportdienst aan onze klanten te bieden. Door onze expertise uit te breiden, zorgen we ervoor dat we kunnen voldoen aan hun veranderende behoeften.",
+        "PostNLtitle": "PostNL Bedrijf",
+        "PostNLbody": "PostNL bezit een uitgebreid netwerk van sorteercentra en logistieke diensten over de hele wereld. Ze hebben ook een vloot van meer dan 10.000 vrachtwagens en helikopters voor het bezorgen van post en pakketten.",
+        "PayCheckedtitle": "PayChecked Keurmerk",
+        "PayCheckedbody": "Controleer uw geschiktheid: Zorg ervoor dat uw bedrijf voldoet aan de vereisten om het PayChecked-handelsmerk te verkrijgen. PAYCHECKED is een handelsmerk dat aangeeft dat de betaling met succes is voltooid en dat uw bestelling wordt verwerkt of is verzonden. Om het PAYChecked-keurmerk te verkrijgen, moet uw bedrijf aan bepaalde vereisten voldoen.",
+        "niwotitle": "NIWO Certificaat",
+        "niwobody": "Het NIWO-certificaat wordt toegekend aan personen die willen werken in de snelle transportsector in Nederland. Dit certificaat bevestigt dat de persoon gekwalificeerd is om te werken in de snelle transportsector door aan te tonen dat hij/zij een schriftelijke en praktische test heeft afgerond."
+    },
+    "DeliverCompany": {
+        "Dpdtitle": "Dpd Bedrijf",
+        "Dpdbody": "DPD is een wereldwijd pakketbezorgbedrijf opgericht in 1976 in Duitsland. DPD staat bekend om zijn betrouwbare diensten en zijn uitgebreide netwerk dat meer dan 40 landen over de hele wereld bestrijkt.",
+        "Dhltitle": "DHL Bedrijf",
+        "Dhlbody": "DHL is een toonaangevend wereldwijd logistiekbedrijf opgericht in 1969 in San Francisco, Californië. DHL staat bekend om zijn betrouwbare diensten en zijn uitgebreide netwerk dat meer dan 220 landen en gebieden over de hele wereld bestrijkt."
+    },
+    "itme": {
+        "col_title": "Wij bieden binnenlandse en internationale verzenddiensten aan",
+        "title": "Wij werken op het gebied van meubeltransport en postverzending met ons hoofdkantoor in Groningen",
+        "btn": "Bladeren",
+        "driver": "Getrainde chauffeurs en personeel",
+        "driverbody": "Ons bedrijf werkt samen met getrainde en toegewijde chauffeurs die de juiste instelling hebben om hun werk succesvol af te ronden. Personeel: Zorg ervoor dat het bedrijf goed opgeleid personeel heeft.",
+        "OurOffers": "Onze Aanbiedingen",
+        "OurOffersbody": "Onze prijzen zijn zeer concurrerend en we bieden kortingen voor vaste klanten.",
+        "Transfer": "Snel en Veilig Transport",
+        "Transferbody": "Van begin tot levering op de eindbestemming. We streven ernaar om elke dag onze prestaties te verbeteren om de beste kwaliteit voor onze klanten te garanderen.",
+        "Safety": "Veiligheidsgarantie",
+        "Safetybody": "Ervaring: Wij zijn een bedrijf met ervaring in meubel- en pakketvervoer. Garantie: Wij bieden een garantie voor onze diensten. Prijsstelling: Vraag een offerte aan."
+    },
+    "OurCustomers": {
+        "title": "Onze Klanten",
+        "titlebody": "Ons bedrijf werktu al jaren samen met grote bedrijven om verzenddiensten te leveren door heel Nederland. Ze zijn een betrouwbare partner gebleken.",
+        "btnStudent": "  Korting voor studenten "
+    },
+    "Getin": "Get in Touch",
+    
+        "Page404": {
+          "title": "Oeps!",
+          "body": "Sorry, de service is momenteel niet beschikbaar.",
+          "btn": "Ga naar de startpagina"
+        }
+      
+      
+
+}

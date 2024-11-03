@@ -1,0 +1,286 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  direction: ltr;
+  z-index: 100;
+ 
+       background-color: #ffffff;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+.logo {
+  font-size: var(--h2-font-size);
+  font-weight: 900;
+  font-family: var(--boday-font);
+}
+.logo p {
+
+  font-weight: 600;
+  font-size: var(--normal-font-size);
+
+
+}
+
+.red-color {
+  color: var(--red);
+}
+
+.team-box-elements {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0px 20px;
+}
+@media screen and (max-width: 768px) {
+.team-box-elements{
+  grid-template-columns: 1fr ;
+
+}
+  .team-box-elements>.team-box-img{
+    display: none;
+  }
+  .menu-active-cell {
+    right: 0;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all.2s ease-in-out;
+  }
+  .team-box-card-img{
+    display: none;
+  }
+}
+.nav-link {
+  padding: 10px 20px;
+  display: block;
+  font-weight: var(--font-semi-bold);
+  color: var(--black-color);
+  font-size: var(--normal-font-size);
+}
+.nav-link:hover {
+  color: var(--red);
+}
+.close-btn {
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  background: none;
+  border: none;
+  font-size: var(--h1-font-size);
+  cursor: pointer;
+}
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: var(--bigger-font);
+  font-weight: var(--font-semi-bold);
+  cursor: pointer;
+  margin: 10px;
+}
+.grp-btns {
+  display: flex;
+  align-items: center;
+}
+.menu-active {
+  right: 0;
+}
+.menu-active-cell {
+  right: 0;
+  height: 80vh;
+}
+
+.duration:hover {
+  color: var(--red);
+}
+
+.team-heading {
+  font-size: var(--bigger-font);
+}
+
+
+
+
+.icons {
+  font-size: var(--h2-font-size);
+  padding: 20px 0;
+}
+.icons > i {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icons > i:hover {
+  color: var(--red);
+}
+
+
+.header-top-left {
+  background-color: var(--grey-color);
+  border-radius: 15px;
+  background: none;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  cursor: pointer;
+}
+.select-opt > select:hover {
+  color: var(--red);
+}
+.menu-btn-call{
+  background: none;
+  border: none;
+  font-size: var(--bigger-font);
+  font-weight: var(--bigger-font);
+  cursor: pointer;
+  margin: 10px;
+  font-size: 40px;
+  color: #551a8b;
+}
+@media screen and (min-width: 769px) {
+
+
+  .menu {
+    display: flex;
+  }
+
+  .close-btn,
+  .menu-btn {
+    display: none;
+  }
+
+  .icons{
+    display: none;
+  }
+  .team-box-card-img{
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+
+
+
+  }
+}
+.close-btn-call{
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  background: none;
+  border: none;
+  font-size: var(--h1-font-size);
+  cursor: pointer;
+}
+
+.menu2 {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all.4s ease-in-out;
+  
+}
+@media screen and (min-width: 900px) {
+
+
+  .close-btn,
+  .menu-btn {
+    display: none;
+  }
+
+  .icons{
+    display: none;
+  }
+  .team-box-card-img{
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+  }
+  .menu-active-cell {
+    height: 100vh;
+  
+  }
+}
+.menu-active-cell {
+  right: 0;
+  
+}
+.left-right{
+  direction: rtl;
+}
+.team-box-card-img>i:hover{
+  color: var(--red);
+}
+
+.menu2>.logo{
+  font-size: var(--h1-font-size);
+}
+#whatsapp .wtsapp{
+  position: fixed;
+  transition: all.5s ease;
+  background-color: #25d366;
+  display: block;
+  text-align: center;
+  box-shadow: 0 0 20px rgb(0, 0, 0,0.15);
+  border-radius: 50px;
+  border-right: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 45px;
+  bottom: 10%;
+  left: 10%;
+  border: 0;
+  z-index: 9999;
+  width: 70px;
+  line-height: 70px;
+}
+#whatsapp .wtsapp::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: #25d366;
+  border-radius: 50%;
+  -webkit-animation: pulse-border 1500ms ease-out infinite;
+  animation:pulse-border 1500ms ease-out infinite; 
+
+}
+#whatsapp .wtsapp:focus{
+  border: none;
+  outline: none;
+}
+@keyframes pulse-border{
+  0%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);opacity: 1;}
+  100%{transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);opacity: 0;}
+
+}

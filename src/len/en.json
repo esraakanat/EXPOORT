@@ -1,0 +1,67 @@
+{
+    "title": "Moving company Groningen to all of the Netherlands cheap moving company",
+  "description": "Need a moving company from Groningen? ✓ Personal service ✓ Experienced movers ✓ Price in 5 minutes ✓ Discount up to 30% ✓ Student Moving Service LetsMove.",
+    "name": "MA.EXPRESS",
+    "home": "Home",
+    "service": "Service",
+    "ourTame": "Employment ",
+    "contact": "Contact Us",
+    "call": " Call : +01 123455678990",
+    "emil": "Email : demo@gmail.com",
+    "SubmitEmail": {
+        "contact": " Contact",
+        "yourfullname": " Your Fullname",
+        "email": "Email",
+        "phone": "Phone",
+
+        "message": "Message",
+        "submit": "Submit"
+    },
+    "logo": "Speed safety quality",
+    "hero": {
+        "title": "Are you looking for a furniture moving company?",
+        "body": "We are a company specializing in furniture and cold parcel transportation services. We are keen to provide a safe and reliable transportation service to ensure that your belongings reach their destination safely and in good condition.",
+        "btn": "Our prices are highly competitive, and we offer discounts for loyal customers.",
+        "btnStudent": " Discount for students   "
+    },
+    "Certificates": {
+        "title": "Certificates and Recommendations",
+        "titlep": "We are committed to providing the best possible fast transportation service to our customers. By expanding our expertise, we ensure that we can meet their changing needs.",
+        "PostNLtitle": "PostNL Company",
+        "PostNLbody": "PostNL owns a wide network of sorting centers and logistics services worldwide. It also has a fleet of over 10,000 trucks and helicopters for mail and parcel delivery.",
+        "PayCheckedtitle": "PayChecked Mark",
+        "PayCheckedbody": "Eligibility Check: Make sure your company meets the requirements to obtain the PayChecked trademark. PAYCHECKED is a trademark that indicates that the payment process has been successfully completed and your order is being processed or has been shipped. To obtain the PAYChecked mark, your company must meet certain requirements.",
+        "niwotitle": "NIWO Certificate",
+        "niwobody": "The NIWO certificate is granted to individuals who wish to work in the fast transportation industry in the Netherlands. This certificate confirms that the person is qualified to work in the fast transportation sector by demonstrating successful completion of a written and practical test."
+    },
+    "DeliverCompany": {
+        "Dpdtitle": "Dpd Company",
+        "Dpdbody": "DPD is a global parcel delivery company founded in 1976 in Germany. DPD is known for its reliable services and its extensive network covering more than 40 countries around the world.",
+        "Dhltitle": "DHL Company",
+        "Dhlbody": "DHL is a leading global logistics company founded in 1969 in San Francisco, California. DHL is known for its reliable services and its extensive network covering more than 220 countries and territories around the world."
+    },
+    "itme": {
+        "col_title": "We offer domestic and international shipping services",
+        "title": "We work in the field of furniture and mail transport with our main office in Groningen",
+        "btn": "Browse",
+        "driver": "Trained Drivers and Staff",
+        "driverbody": "Our company works with trained and dedicated drivers who have the right attitude to successfully complete their work. Staff: Make sure the company has well-trained employees.",
+        "OurOffers": "Our Offers",
+        "OurOffersbody": "Our prices are highly competitive, and we offer discounts for regular customers.",
+        "Transfer": "Fast and Secure Transport",
+        "Transferbody": "From start to delivery at the final destination. We strive to improve our performance every day to ensure the best quality for our clients.",
+        "Safety": "Safety Guarantee",
+        "Safetybody": "Experience: We are a company with experience in furniture and parcel transportation. Guarantee: We provide a warranty for our services. Pricing: Get a quote."
+    },
+    "OurCustomers": {
+        "title": "Our Customers",
+        "titlebody": "Our company has worked with large companies for many years to provide shipping services throughout the Netherlands. They have been a reliable partner."
+    },
+    "Getin": "Get in Touch",
+    "Go": "Go"
+    ,"Page404":{
+        "title":"Uh Ohh !",
+        "body":"Sorry, the service is currently down."
+        ,"btn":"Go Home"
+    }
+}

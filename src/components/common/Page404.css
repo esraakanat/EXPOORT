@@ -1,0 +1,112 @@
+
+  
+  
+  /* divide screen equally */
+  .Page404 {
+    width: 80%;
+    display: grid;
+    margin: auto;
+    align-items: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  
+  /* CSS For error text  */
+  .error {
+    width: 80%;
+  }
+  
+  .Page404> h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #2d2b2b;
+    margin-top: 2rem;
+  }
+  
+  .Page404> p {
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: "eurostile", sans-serif;
+    margin-top: 1rem;
+    line-height: 2rem;
+  }
+  
+  
+  /* CSS For button transition  */
+  .cta {
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+  
+  .cta-back {
+    background-color: #ff4f5b;
+    color: #fff;
+    padding: 1rem 3em;
+    border: none;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 400;
+  }
+  
+  .cta-back:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #ff4f5b;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  
+  .cta-back:hover {
+    background: none !important;
+    box-shadow: none !important;
+  }
+  
+  .cta-back:hover::before {
+    transform: scaleX(1);
+  }
+  
+  
+  /* CSS for image animation  */
+  .Page404> img {
+    height: 60vh;
+    animation: MoveUpDown 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @keyframes MoveUpDown {
+    0% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  
+  /* CSS For responsiveness  */
+  @media (max-width: 998px) {
+.Page404 {
+display: flex;
+    min-height: 100vh;
+  }
+  
+    .error {
+      width: 100%;
+      margin: 18rem 9rem auto;
+      text-align: center;
+    }
+    .Page404> img {
+      margin-top: 2rem;
+      width: 50%;
+      height: 50vh;
+    }
+  }
